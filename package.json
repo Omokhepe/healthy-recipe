@@ -2,7 +2,7 @@
   "name": "food-recipe-fnd-main",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://omokhepe.github.io/portfolio",
+  "homepage": "https://omokhepe.github.io/healthy-recipe",
   "type": "module",
   "scripts": {
     "dev": "vite",
