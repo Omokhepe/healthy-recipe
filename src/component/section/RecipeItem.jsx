@@ -22,7 +22,7 @@ const RecipeItem = ({filterItems}) => {
                             <button className='btnSecondary textPreset8'>
                                 <Link
                                     key={item.id}
-                                    to={`/recipedetail/:${item.id}`}
+                                    to={`/recipedetail/:${item.slug}`}
                                     state={{item: item, title: item.title, filterItems:filterItems}}
                                     className="btnSecondary"
                                 >

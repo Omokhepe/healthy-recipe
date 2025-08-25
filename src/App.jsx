@@ -13,7 +13,7 @@ function AnimatedRoutes() {
                 <Route path="/" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/recipe" element={<Recipe/>} />
-                <Route path="/recipedetail/:id" element={<RecipeDetail/>} />
+                <Route path="/recipedetail/:slug" element={<RecipeDetail/>} />
             </Routes>
         </AnimatePresence>
     );
