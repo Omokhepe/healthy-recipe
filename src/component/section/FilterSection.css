@@ -1,0 +1,98 @@
+.filter-tab{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 320px 20px;
+}
+.filter-droodown{
+    display: flex;
+}
+
+.filter-meal{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: left;
+    width: 1192px;
+}
+.filterItem{
+    background-color: var(--colorNeutral0);
+    margin: 0 32px 32px 0;
+    border-radius: 12px;
+    /*padding: 10px;*/
+}
+.filterEach{
+    padding: 0 10px 0;
+}
+.filter-text{
+    max-width: 340px;
+    white-space: nowrap;
+    overflow: hidden;    /* Hides any content that overflows the element's box */
+    text-overflow: ellipsis;
+    margin: 0;
+
+}
+.mealImg{
+    width: 360px;
+    height: 360px;
+    padding: 10px;
+    border-radius: 18px;
+}
+.timerRange{
+    display: flex;
+    align-items: center;
+    h6{
+        margin: 0;
+        img{
+            width: 19px;
+        }
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    margin-right: 20px;
+}
+
+.dropbtn {
+    width: 100%;
+    padding: 10px;
+    background: var(--colorNeutral0);
+    border: 1px solid var(--colorNeutral300);
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--colorNeutral900);
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--colorNeutral0);
+    border: 1px solid var(--colorNeutral100);
+    border-radius: 6px;
+    margin-top: 5px;
+    z-index: 1000;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background: #f5f5f5;
+}
+
+.arrow {
+    font-size: 12px;
+}

@@ -1,0 +1,19 @@
+.recipeDetail{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 10px auto 50px;
+}
+.recipeDetailImg{
+    width: 580px;
+    height: 580px;
+    margin-right: 64px;
+    border-radius: 12px;
+}
+.subtext{
+    margin-left: 400px;
+    margin-bottom: 0;
+}
+.more-recipes{
+margin-top: 0;
+}

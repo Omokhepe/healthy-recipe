@@ -1,0 +1,97 @@
+@import url("../../index.css");
+.hero-section{
+    text-align: center;
+    /*margin: 0 0 96px;*/
+}
+
+.text-margin{
+    margin: 24px 0;
+}
+
+.home-image{
+    /*display: block;*/
+    width: 1192px;
+    height: 530px;
+    margin: 80px 0 0;
+    border-radius: 12px;
+}
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.featureContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.featureItem{
+    text-align: left;
+    max-width: 376px;
+    margin-left: 32px;
+    img{
+        width: 60px;
+    }
+}
+
+.realLife-section{
+    display: flex;
+    /*margin: 0 0 96px;*/
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 635px;
+        height: 450px;
+        margin-left: 48px;
+        border-radius: 12px;
+    }
+}
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin: 0 0 96px;*/
+}
+.call-to-action__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1192px;
+    height: 396px;
+    background-color: var(--colorNeutral200);
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+.call-to-action__container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 70px;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/icons/CTA_Illustration1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; /* or cover */
+    z-index: 0;
+}
+.call-to-action__container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 56px;
+    width: 100%;
+    height: 100%;
+    background-image: url("/src/assets/icons/CTA_Illustration2.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain; /* or cover */
+    z-index: 0;
+}
+.call-to-action__container > * {
+    position: relative;
+    z-index: 1; /* put actual content above ::before */
+}
